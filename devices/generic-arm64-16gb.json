@@ -1,0 +1,14 @@
+{
+  "key": "generic-arm64/16gb",
+  "soc": "generic-arm64",
+  "vendor": "other",
+  "ramGb": 16,
+  "htpVersion": null,
+  "cores": {
+    "total": 8,
+    "big": [],
+    "prime": null,
+    "perf": []
+  },
+  "cpuMasks": {}
+}
