@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "qwen3-4b/q4_k_m/generic-arm64-16gb",
+  "backend": "opencl",
+  "model": {
+    "family": "qwen3-4b",
+    "matchPatterns": ["qwen3.?4b"],
+    "quants": ["Q4_K_M"]
+  },
+  "launch": {
+    "nCtx": 4096,
+    "threads": 8,
+    "nGpuLayers": 99
+  },
+  "minAppVersion": "0.1.0"
+}
