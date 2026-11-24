@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-25",
+  "devices": [
+    {
+      "key": "generic-arm64/16gb",
+      "soc": "generic-arm64",
+      "vendor": "other",
+      "ramGb": 16,
+      "file": "devices/generic-arm64-16gb.json"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "qwen3-4b/q4_k_m/generic-arm64-16gb",
+      "family": "qwen3-4b",
+      "device": "generic-arm64/16gb",
+      "quants": ["Q4_K_M"],
+      "file": "profiles/qwen3-4b-q4_k_m-generic.json"
+    }
+  ]
+}
